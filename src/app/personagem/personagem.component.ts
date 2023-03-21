@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-personagem',
@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./personagem.component.css']
 })
 export class PersonagemComponent {
-  nome: string = "Harry Potter";
-  varinha: string = "Pena de fenix";
+  @Input() nome: string = "";
 }
