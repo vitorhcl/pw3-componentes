@@ -1,6 +1,9 @@
 <div>
   Personagem: {{nome}}
-  <div [hidden]="!ehBruxo">
+  <div *ngIf="ehBruxo; else naoBruxo">
     Varinha: {{varinha}}
   </div>
+  <ng-template #naoBruxo>
+    <br>Não é bruxo
+  </ng-template>
 </div>

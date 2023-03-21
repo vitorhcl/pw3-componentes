@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
 export class PersonagemComponent {
   @Input() nome: string = "";
   @Input() varinha: string = "";
-  @Input() ehBruxo: boolean = false;
+  @Input() ehBruxo: boolean = true;
 }
