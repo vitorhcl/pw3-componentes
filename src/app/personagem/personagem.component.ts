@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./personagem.component.css']
 })
 export class PersonagemComponent {
-  nome: string = "Luke Skywalker";
-  templo: string = "Coruscant";
+  nome: string = "Harry Potter";
+  varinha: string = "Pena de fenix";
 }
